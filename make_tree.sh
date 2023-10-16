@@ -14,6 +14,6 @@ module load muscle
 ITSx -i input.fasta -t F -o UHM_mucor
 muscle -align UHM_mucor.ITS1.fasta -output UHM_mucor.ITS1.fasaln 
 muscle -align UHM_mucor.ITS2.fasta -output UHM_mucor.ITS2.fasaln 
-FastTreeMP -nt -gtr < UHM_mucor.ITS1.fasaln > UHM_mucor.ITS1.ft.tre
-FastTreeMP -nt -gtr < UHM_mucor.ITS2.fasaln > UHM_mucor.ITS2.ft.tre
+FastTreeMP -nt -gamma -gtr < UHM_mucor.ITS1.fasaln > UHM_mucor.ITS1.ft.tre
+FastTreeMP -nt -gamma -gtr < UHM_mucor.ITS2.fasaln > UHM_mucor.ITS2.ft.tre
 
