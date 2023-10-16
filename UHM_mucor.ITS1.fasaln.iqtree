@@ -1,0 +1,566 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: UHM_mucor.ITS1.fasaln
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 179085
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 89 sequences with 2980 nucleotide sites
+Number of constant sites: 2089 (= 70.1007% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2089 (= 70.1007% of all sites)
+Number of parsimony informative sites: 236
+Number of distinct site patterns: 593
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+G4         -14121.784   28609.568 - 0.000225   28633.654 - 0.000564   29707.509 +    0.481
+K3Pu+F+G4        -14129.977   28621.955 -  4.6e-07   28645.501 - 1.51e-06   29707.896 +    0.397
+GTR+F+G4         -14119.828   28607.655 - 0.000585   28632.013 -  0.00128   29711.596 +   0.0624
+TIM+F+G4         -14128.023   28620.047 - 1.19e-06   28643.862 - 3.43e-06   29711.988 +   0.0513
+TVM+F+I+G4       -14122.619   28613.239 - 3.59e-05   28637.597 - 7.86e-05   29717.180 -  0.00383
+K3Pu+F+I+G4      -14130.737   28625.475 - 7.91e-08   28649.291 - 2.27e-07   29717.417 -   0.0034
+GTR+F+I+G4       -14120.703   28611.406 - 8.98e-05   28636.037 - 0.000171   29721.346 - 0.000476
+TIM+F+I+G4       -14128.857   28623.713 - 1.91e-07   28647.799 - 4.79e-07   29721.655 - 0.000408
+GTR+F+R4         -14107.836   28593.672 +    0.637   28619.414 +    0.698   29727.612 - 2.08e-05
+TPM2u+F+G4       -14140.895   28643.791 - 8.33e-12   28667.338 - 2.74e-11   29729.733 - 7.19e-06
+TIM2+F+G4        -14139.325   28642.651 - 1.47e-11   28666.466 - 4.23e-11   29734.592 - 6.33e-07
+TPM3u+F+G4       -14143.611   28649.223 - 5.51e-13   28672.770 - 1.81e-12   29735.165 - 4.76e-07
+GTR+F+I+R4       -14109.385   28598.769 -   0.0498   28624.793 -   0.0474   29738.708 - 8.09e-08
+TIM3+F+G4        -14141.568   28647.137 - 1.56e-12   28670.953 - 4.49e-12   29739.079 - 6.72e-08
+TPM2u+F+I+G4     -14141.763   28647.525 - 1.29e-12   28671.341 -  3.7e-12   29739.467 - 5.53e-08
+GTR+F+R5         -14106.717   28595.434 +    0.264   28621.741 +    0.218   29741.372 - 2.13e-08
+TIM2+F+I+G4      -14140.235   28646.469 - 2.18e-12   28670.555 - 5.48e-12   29744.410 - 4.67e-09
+TPM3u+F+I+G4     -14144.267   28652.534 - 1.05e-13   28676.349 - 3.02e-13   29744.475 - 4.52e-09
+HKY+F+G4         -14152.484   28664.968 -  2.1e-16   28688.247 - 7.88e-16   29744.910 - 3.64e-09
+GTR+F+R3         -14124.838   28623.675 - 1.94e-07   28648.859 - 2.82e-07   29745.615 - 2.56e-09
+TIM3+F+I+G4      -14142.306   28650.611 - 2.75e-13   28674.697 -  6.9e-13   29748.552 - 5.89e-10
+TN+F+G4          -14150.643   28663.287 - 4.87e-16   28686.834 -  1.6e-15   29749.229 -  4.2e-10
+GTR+F+I+R5       -14107.405   28598.810 -   0.0488   28625.402 -   0.0349   29750.748 - 1.96e-10
+GTR+F+I+R3       -14123.535   28623.071 - 2.63e-07   28648.532 - 3.32e-07   29751.010 - 1.72e-10
+HKY+F+I+G4       -14153.096   28668.191 - 4.19e-17   28691.738 - 1.38e-16   29754.133 - 3.62e-11
+TN+F+I+G4        -14151.336   28666.672 - 8.96e-17   28690.488 - 2.57e-16   29758.614 - 3.85e-12
+GTR+F+R2         -14163.762   28697.525 - 1.79e-23   28722.156 - 3.42e-23   29807.465 - 9.49e-23
+GTR+F+I+R2       -14162.345   28696.689 - 2.72e-23   28721.596 - 4.52e-23   29812.630 - 7.18e-24
+TVMe+G4          -14201.872   28763.744 - 7.47e-38   28787.024 -  2.8e-37   29843.686 - 1.29e-30
+SYM+G4           -14200.876   28763.752 - 7.44e-38   28787.299 - 2.44e-37   29849.694 - 6.42e-32
+TVMe+I+G4        -14202.923   28767.846 - 9.61e-39   28791.393 - 3.15e-38   29853.788 - 8.29e-33
+SYM+I+G4         -14201.905   28767.809 - 9.78e-39   28791.625 - 2.81e-38   29859.751 - 4.21e-34
+F81+F+G4         -14236.729   28831.458 - 1.48e-52   28854.472 - 6.33e-52   29905.400 - 5.14e-44
+F81+F+I+G4       -14237.349   28834.697 - 2.92e-53   28857.977 -  1.1e-52   29914.640 - 5.07e-46
+K3P+G4           -14248.274   28852.548 - 3.89e-57   28875.298 -  1.9e-56   29920.491 - 2.72e-47
+TPM2+G4          -14248.570   28853.141 - 2.89e-57   28875.891 - 1.41e-56   29921.084 - 2.02e-47
+TIMe+G4          -14247.317   28852.634 - 3.72e-57   28875.649 -  1.6e-56   29926.577 -  1.3e-48
+TIM2e+G4         -14248.257   28854.514 - 1.46e-57   28877.528 - 6.24e-57   29928.456 - 5.06e-49
+TPM3+G4          -14252.707   28861.415 - 4.62e-59   28884.165 - 2.26e-58   29929.357 - 3.23e-49
+K3P+I+G4         -14249.159   28856.318 -  5.9e-58   28879.332 - 2.53e-57   29930.260 - 2.05e-49
+TPM2+I+G4        -14249.643   28857.287 - 3.64e-58   28880.301 - 1.56e-57   29931.229 - 1.27e-49
+TIM3e+G4         -14251.095   28860.189 - 8.52e-59   28883.204 - 3.65e-58   29934.132 - 2.97e-50
+TIMe+I+G4        -14248.215   28856.430 - 5.58e-58   28879.709 -  2.1e-57   29936.372 - 9.68e-51
+TIM2e+I+G4       -14249.323   28858.646 - 1.84e-58   28881.926 - 6.92e-58   29938.588 - 3.19e-51
+TPM3+I+G4        -14253.655   28865.311 - 6.58e-60   28888.325 - 2.82e-59   29939.253 - 2.29e-51
+TIM3e+I+G4       -14252.050   28864.100 - 1.21e-59   28887.379 - 4.53e-59   29944.042 - 2.09e-52
+K2P+G4           -14286.547   28927.093 - 2.53e-73   28949.581 - 1.41e-72   29989.036 - 3.55e-62
+TNe+G4           -14285.739   28927.478 - 2.08e-73   28950.229 - 1.02e-72   29995.421 - 1.46e-63
+K2P+I+G4         -14287.370   28930.740 - 4.08e-74   28953.490 - 1.99e-73   29998.683 - 2.85e-64
+TNe+I+G4         -14286.544   28931.088 - 3.43e-74   28954.102 - 1.47e-73   30005.030 - 1.19e-65
+JC+G4            -14352.221   29056.442 - 2.06e-101   29078.670 - 1.31e-100   30112.385 - 5.82e-89
+JC+I+G4          -14353.027   29060.054 - 3.39e-102   29082.542 - 1.89e-101   30121.997 - 4.76e-91
+GTR+F+I          -14594.974   29557.947 - 2.6e-210   29582.305 - 5.68e-210   30661.888 - 2.77e-208
+GTR+F            -14607.106   29580.213 - 3.8e-215   29604.298 - 9.52e-215   30678.154 - 8.12e-212
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0295
+  A-G: 2.9404
+  A-T: 2.1441
+  C-G: 1.2225
+  C-T: 2.9404
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2844
+  pi(C) = 0.2019
+  pi(G) = 0.2102
+  pi(T) = 0.3035
+
+Rate matrix Q:
+
+  A    -1.031    0.1452    0.4317    0.4546
+  C    0.2045    -1.007    0.1795    0.6234
+  G    0.5841    0.1724   -0.9685     0.212
+  T    0.4259    0.4146    0.1468   -0.9874
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8387
+
+ Category  Relative_rate  Proportion
+  1         0.1038         0.25
+  2         0.4223         0.25
+  3         0.9671         0.25
+  4         2.507          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14072.5660 (s.e. 572.0070)
+Unconstrained log-likelihood (without tree): -15239.5836
+Number of free parameters (#branches + #model parameters): 183
+Akaike information criterion (AIC) score: 28511.1320
+Corrected Akaike information criterion (AICc) score: 28535.2178
+Bayesian information criterion (BIC) score: 29609.0732
+
+Total tree length (sum of branch lengths): 36.3753
+Sum of internal branch lengths: 17.1654 (47.1896% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NR_126123.1_Mucor_janssenii|F|ITS1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--NR_126123.1_Mucor_janssenii|F|ITS1
+|
+|                    +--UHM42|F|ITS1
+|                 +--| (99.6/95)
+|                 |  +--NR_175649.1_Mucor_harpali|F|ITS1
+|              +--| (91.9/72)
+|              |  |  +--NR_103629.1_Mucor_mousanensis|F|ITS1
+|              |  +--| (59.6/83)
+|              |     |  +**NR_126135.1_Mucor_racemosus|F|ITS1
+|              |     +--| (97.6/100)
+|              |        +--NR_145283.1_Mucor_brunneogriseus|F|ITS1
+|           +**| (0/41)
+|           |  |                                      +**UHM51|F|ITS1
+|           |  |                                   +--| (62.8/82)
+|           |  |                                   |  +**UHM47|F|ITS1
+|           |  |                                +--| (95.6/99)
+|           |  |                                |  |  +--UHM36|F|ITS1
+|           |  |                                |  +--| (74.3/98)
+|           |  |                                |     +--UHM49|F|ITS1
+|           |  |                             +--| (95.8/98)
+|           |  |                             |  +--NR_152948.1_Mucor_hiemalis|F|ITS1
+|           |  |                          +--| (33.3/65)
+|           |  |                          |  +--NR_111660.1_Mucor_fusiformis|F|ITS1
+|           |  |                       +--| (67/37)
+|           |  |                       |  |                                      +---------------NR_135337.1_Aspergillus_glaucus|F|ITS1
+|           |  |                       |  |                     +----------------| (93.3/97)
+|           |  |                       |  |                     |                +---------------NR_111663.1_Thermomucor_indicae-seudaticae|F|ITS1
+|           |  |                       |  |     +---------------| (95.4/93)
+|           |  |                       |  |     |               |               +**NR_111413.1_Lichtheimia_corymbifera|F|ITS1
+|           |  |                       |  |     |               +---------------| (97.4/98)
+|           |  |                       |  |     |                               +--------NR_111438.1_Lichtheimia_ramosa|F|ITS1
+|           |  |                       |  |  +--| (36.8/38)
+|           |  |                       |  |  |  |           +**UHM50|F|ITS1
+|           |  |                       |  |  |  |        +--| (87.7/100)
+|           |  |                       |  |  |  |        |  +**UHM38|F|ITS1
+|           |  |                       |  |  |  |     +--| (70.4/94)
+|           |  |                       |  |  |  |     |  +**NR_120224.1_Mucor_luteus|F|ITS1
+|           |  |                       |  |  |  |  +--| (67.4/86)
+|           |  |                       |  |  |  |  |  +------UHM48|F|ITS1
+|           |  |                       |  |  |  +**| (0/24)
+|           |  |                       |  |  |     |   +---------NR_145292.1_Backusella_oblongielliptica|F|ITS1
+|           |  |                       |  |  |     +---| (90.2/94)
+|           |  |                       |  |  |         |           +--------NR_145291.1_Backusella_lamprospora|F|ITS1
+|           |  |                       |  |  |         +-----------| (98.6/100)
+|           |  |                       |  |  |                     |      +--NR_145290.1_Backusella_indica|F|ITS1
+|           |  |                       |  |  |                     +------| (96.3/100)
+|           |  |                       |  |  |                            +--NR_103648.1_Backusella_grandis|F|ITS1
+|           |  |                       |  +--| (95.6/38)
+|           |  |                       |     +--NR_111661.1_Mucor_endophyticus|F|ITS1
+|           |  |                    +--| (97.8/46)
+|           |  |                    |  |           +--NR_178158.1_Mucor_takensis|F|ITS1
+|           |  |                    |  |        +--| (53.7/85)
+|           |  |                    |  |        |  +--NR_172288.1_Mucor_irregularis|F|ITS1
+|           |  |                    |  |     +--| (96.3/87)
+|           |  |                    |  |     |  +--NR_178161.1_Mucor_aseptatophorus|F|ITS1
+|           |  |                    |  |  +--| (86.6/87)
+|           |  |                    |  |  |  |  +**UHM45|F|ITS1
+|           |  |                    |  |  |  +--| (67.1/93)
+|           |  |                    |  |  |     +**UHM43|F|ITS1
+|           |  |                    |  +--| (95.3/73)
+|           |  |                    |     +--NR_165210.1_Mucor_souzae|F|ITS1
+|           |  |                 +--| (92.6/53)
+|           |  |                 |  |          +------------NR_187100.1_Mucor_ascheae|F|ITS1
+|           |  |                 |  |     +----| (94.6/99)
+|           |  |                 |  |     |    +--NR_164587.1_Mucor_orantomantidis|F|ITS1
+|           |  |                 |  |  +--| (71.6/79)
+|           |  |                 |  |  |  +--NR_111662.1_Mucor_multiplex|F|ITS1
+|           |  |                 |  +--| (76.4/78)
+|           |  |                 |     +--NR_145286.1_Mucor_megalocarpus|F|ITS1
+|           |  |              +--| (84.9/63)
+|           |  |              |  |     +--NR_103630.1_Mucor_piriformis|F|ITS1
+|           |  |              |  |  +--| (94.2/99)
+|           |  |              |  |  |  +--NR_103631.1_Mucor_strictus|F|ITS1
+|           |  |              |  +--| (99.1/92)
+|           |  |              |     +--NR_103688.1_Mucor_mucedo|F|ITS1
+|           |  |           +--| (78.7/62)
+|           |  |           |  |        +--NR_152958.1_Mucor_minutus|F|ITS1
+|           |  |           |  |     +--| (77.8/92)
+|           |  |           |  |     |  +--NR_103635.1_Mucor_saturninus|F|ITS1
+|           |  |           |  |  +--| (97.8/100)
+|           |  |           |  |  |  |  +--NR_103634.1_Mucor_aligarensis|F|ITS1
+|           |  |           |  |  |  +--| (62.1/87)
+|           |  |           |  |  |     +--NR_103633.1_Mucor_flavus|F|ITS1
+|           |  |           |  +--| (84.3/58)
+|           |  |           |     |              +---NR_103646.1_Mucor_gigasporus|F|ITS1
+|           |  |           |     |           +--| (94.3/69)
+|           |  |           |     |           |  +--NR_145285.1_Mucor_bacilliformis|F|ITS1
+|           |  |           |     |        +--| (72/62)
+|           |  |           |     |        |  |  +**NR_152977.1_Mucor_rudolphii|F|ITS1
+|           |  |           |     |        |  +--| (94.6/100)
+|           |  |           |     |        |     +**NR_152978.1_Mucor_lilianae|F|ITS1
+|           |  |           |     |     +--| (79.8/58)
+|           |  |           |     |     |  |  +--NR_103636.1_Mucor_guilliermondii|F|ITS1
+|           |  |           |     |     |  +--| (98.3/99)
+|           |  |           |     |     |     +--NR_185548.1_Mucor_chuxiongensis|F|ITS1
+|           |  |           |     |  +--| (26.9/36)
+|           |  |           |     |  |  |     +**NR_152959.1_Mucor_moelleri|F|ITS1
+|           |  |           |     |  |  |  +--| (99.9/100)
+|           |  |           |     |  |  |  |  +**NR_111659.1_Mucor_moelleri|F|ITS1
+|           |  |           |     |  |  +--| (95.9/98)
+|           |  |           |     |  |     +--NR_103638.1_Mucor_zonatus|F|ITS1
+|           |  |           |     +--| (23/28)
+|           |  |           |        +--NR_145295.1_Mucor_durus|F|ITS1
+|           |  |        +--| (90.5/44)
+|           |  |        |  |     +--UHM52|F|ITS1
+|           |  |        |  |  +--| (92.1/99)
+|           |  |        |  |  |  +--UHM44|F|ITS1
+|           |  |        |  +--| (100/100)
+|           |  |        |     +--NR_103632.1_Mucor_genevensis|F|ITS1
+|           |  |     +--| (70.6/36)
+|           |  |     |  |  +--NR_164218.1_Hyphomucor_assamensis|F|ITS1
+|           |  |     |  +--| (90.8/94)
+|           |  |     |     |  +--NR_103642.1_Mucor_laxorrhizus|F|ITS1
+|           |  |     |     +--| (84.6/97)
+|           |  |     |        +--NR_152956.1_Mucor_lanceolatus|F|ITS1
+|           |  |  +--| (97.6/67)
+|           |  |  |  |           +--NR_103641.1_Mucor_zychae|F|ITS1
+|           |  |  |  |        +--| (88.9/80)
+|           |  |  |  |        |  +---NR_182577.1_Mucor_grylli|F|ITS1
+|           |  |  |  |     +--| (66.3/54)
+|           |  |  |  |     |  |                    +---NR_103647.1_Mucor_falcatus|F|ITS1
+|           |  |  |  |     |  |                 +--| (80.3/66)
+|           |  |  |  |     |  |                 |  +**UHM46|F|ITS1
+|           |  |  |  |     |  |              +--| (92.4/70)
+|           |  |  |  |     |  |              |  +--NR_178162.1_Mucor_chiangraiensis|F|ITS1
+|           |  |  |  |     |  |           +--| (46.5/48)
+|           |  |  |  |     |  |           |  +--NR_152951.1_Mucor_variisporus|F|ITS1
+|           |  |  |  |     |  |        +--| (73.5/68)
+|           |  |  |  |     |  |        |  +--NR_103615.1_Mucor_amphibiorum|F|ITS1
+|           |  |  |  |     |  |     +**| (0/63)
+|           |  |  |  |     |  |     |  |  +**NR_152960.1_Mucor_ardhlaengiktus|F|ITS1
+|           |  |  |  |     |  |     |  +--| (93.1/100)
+|           |  |  |  |     |  |     |     +**NR_111683.1_Mucor_ellipsoideus|F|ITS1
+|           |  |  |  |     |  |  +--| (96.5/88)
+|           |  |  |  |     |  |  |  +--NR_077173.1_Mucor_indicus|F|ITS1
+|           |  |  |  |     |  +--| (91.5/66)
+|           |  |  |  |     |     |  +--NR_103639.1_Mucor_azygosporus|F|ITS1
+|           |  |  |  |     |     +--| (62.2/79)
+|           |  |  |  |     |        +---NR_182578.1_Mucor_hyangburmii|F|ITS1
+|           |  |  |  |  +--| (24.1/34)
+|           |  |  |  |  |  +--NR_182579.1_Mucor_kunryangriensis|F|ITS1
+|           |  |  |  +--| (96.5/82)
+|           |  |  |     +--NR_145287.1_Mucor_odoratus|F|ITS1
+|           |  +--| (92/64)
+|           |     +**NR_169896.1_Mucor_pseudocircinelloides|F|ITS1
+|        +--| (86.1/63)
+|        |  |     +--NR_103628.1_Mucor_bainieri|F|ITS1
+|        |  |  +--| (58.8/73)
+|        |  |  |  |  +**NR_168167.1_Mucor_pseudolusitanicus|F|ITS1
+|        |  |  |  +--| (82.2/78)
+|        |  |  |     +--UHM55|F|ITS1
+|        |  +--| (89.9/73)
+|        |     +**NR_169895.1_Mucor_atramentarius|F|ITS1
+|     +--| (76.2/62)
+|     |  |  +--NR_168144.1_Mucor_ctenidius|F|ITS1
+|     |  +--| (91.8/96)
+|     |     +--NR_126116.1_Mucor_circinelloides|F|ITS1
+|  +--| (90.9/76)
+|  |  |              +--UHM39|F|ITS1
+|  |  |           +**| (0/75)
+|  |  |           |  +--NR_178159.1_Mucor_phayaoensis|F|ITS1
+|  |  |        +--| (90.5/78)
+|  |  |        |  +**UHM53|F|ITS1
+|  |  |     +--| (85.8/81)
+|  |  |     |  +**NR_126127.1_Mucor_lusitanicus|F|ITS1
+|  |  |  +--| (87.9/63)
+|  |  |  |  |  +--NR_103627.1_Mucor_ramosissimus|F|ITS1
+|  |  |  |  +**| (0/56)
+|  |  |  |     |                      +--NR_111462.1_Rhizomucor_pusillus|F|ITS1
+|  |  |  |     +----------------------| (100/99)
+|  |  |  |                            +--NR_164370.1_Rhizomucor_miehei|F|ITS1
+|  |  +--| (72.7/59)
+|  |     +--NR_169897.1_Mucor_amethystinus|F|ITS1
++--| (82.7/99)
+|  +--NR_126136.1_Mucor_griseocyanus|F|ITS1
+|
++--NR_111682.1_Mucor_velutinosus|F|ITS1
+
+Tree in newick format:
+
+(NR_126123.1_Mucor_janssenii|F|ITS1:0.0053704072,(((((((UHM42|F|ITS1:0.0615484580,NR_175649.1_Mucor_harpali|F|ITS1:0.0408250540)99.6/95:0.1195136210,(NR_103629.1_Mucor_mousanensis|F|ITS1:0.1539337572,(NR_126135.1_Mucor_racemosus|F|ITS1:0.0000010000,NR_145283.1_Mucor_brunneogriseus|F|ITS1:0.0172806230)97.6/100:0.0628506841)59.6/83:0.0086562254)91.9/72:0.0261679774,(((((((((((((UHM51|F|ITS1:0.0000010000,UHM47|F|ITS1:0.0000025571)62.8/82:0.0349127812,(UHM36|F|ITS1:0.2039304861,UHM49|F|ITS1:0.3311536117)74.3/98:0.0721654772)95.6/99:0.0918073522,NR_152948.1_Mucor_hiemalis|F|ITS1:0.1361069249)95.8/98:0.1726723505,NR_111660.1_Mucor_fusiformis|F|ITS1:0.1944759849)33.3/65:0.0311504747,((((NR_135337.1_Aspergillus_glaucus|F|ITS1:1.8718019144,NR_111663.1_Thermomucor_indicae-seudaticae|F|ITS1:1.9446985854)93.3/97:1.9926554300,(NR_111413.1_Lichtheimia_corymbifera|F|ITS1:0.0000025482,NR_111438.1_Lichtheimia_ramosa|F|ITS1:1.1434035847)97.4/98:1.8575605220)95.4/93:1.8793248120,((((UHM50|F|ITS1:0.0000027040,UHM38|F|ITS1:0.0000010000)87.7/100:0.0171080793,NR_120224.1_Mucor_luteus|F|ITS1:0.0000025010)70.4/94:0.0387261067,UHM48|F|ITS1:0.8787026618)67.4/86:0.0475611415,(NR_145292.1_Backusella_oblongielliptica|F|ITS1:1.1616152335,(NR_145291.1_Backusella_lamprospora|F|ITS1:1.1190974693,(NR_145290.1_Backusella_indica|F|ITS1:0.1005381589,NR_103648.1_Backusella_grandis|F|ITS1:0.0722655339)96.3/100:0.8773975511)98.6/100:1.4183808930)90.2/94:0.5272525305)0/24:0.0000021297)36.8/38:0.0621201163,NR_111661.1_Mucor_endophyticus|F|ITS1:0.1574106188)95.6/38:0.1745242129)67/37:0.0958731952,((((NR_178158.1_Mucor_takensis|F|ITS1:0.1046101796,NR_172288.1_Mucor_irregularis|F|ITS1:0.0849928466)53.7/85:0.0499292971,NR_178161.1_Mucor_aseptatophorus|F|ITS1:0.0291423386)96.3/87:0.0966422374,(UHM45|F|ITS1:0.0000010000,UHM43|F|ITS1:0.0000010000)67.1/93:0.0095659808)86.6/87:0.0589771737,NR_165210.1_Mucor_souzae|F|ITS1:0.1061287189)95.3/73:0.1280718731)97.8/46:0.2084695188,(((NR_187100.1_Mucor_ascheae|F|ITS1:1.5237955297,NR_164587.1_Mucor_orantomantidis|F|ITS1:0.3560800947)94.6/99:0.6055925353,NR_111662.1_Mucor_multiplex|F|ITS1:0.0625938286)71.6/79:0.1056336568,NR_145286.1_Mucor_megalocarpus|F|ITS1:0.3038944734)76.4/78:0.0719403517)92.6/53:0.1278836264,((NR_103630.1_Mucor_piriformis|F|ITS1:0.0564330841,NR_103631.1_Mucor_strictus|F|ITS1:0.2759428451)94.2/99:0.1385003685,NR_103688.1_Mucor_mucedo|F|ITS1:0.1412694466)99.1/92:0.2120114741)84.9/63:0.0671795487,(((NR_152958.1_Mucor_minutus|F|ITS1:0.1167021101,NR_103635.1_Mucor_saturninus|F|ITS1:0.1490150542)77.8/92:0.0489019275,(NR_103634.1_Mucor_aligarensis|F|ITS1:0.0796855270,NR_103633.1_Mucor_flavus|F|ITS1:0.0752619037)62.1/87:0.0179859658)97.8/100:0.1908555153,(((((NR_103646.1_Mucor_gigasporus|F|ITS1:0.5176626190,NR_145285.1_Mucor_bacilliformis|F|ITS1:0.1414874232)94.3/69:0.1843633159,(NR_152977.1_Mucor_rudolphii|F|ITS1:0.0000010000,NR_152978.1_Mucor_lilianae|F|ITS1:0.0000026257)94.6/100:0.1224092141)72/62:0.0455604583,(NR_103636.1_Mucor_guilliermondii|F|ITS1:0.1213857871,NR_185548.1_Mucor_chuxiongensis|F|ITS1:0.1765339641)98.3/99:0.2007638606)79.8/58:0.0607808325,((NR_152959.1_Mucor_moelleri|F|ITS1:0.0000010000,NR_111659.1_Mucor_moelleri|F|ITS1:0.0000010000)99.9/100:0.1554709850,NR_103638.1_Mucor_zonatus|F|ITS1:0.0171488248)95.9/98:0.1298178242)26.9/36:0.0251687099,NR_145295.1_Mucor_durus|F|ITS1:0.3247398179)23/28:0.0505763345)84.3/58:0.0909482085)78.7/62:0.0582875924,((UHM52|F|ITS1:0.0193805865,UHM44|F|ITS1:0.2470086572)92.1/99:0.1314017784,NR_103632.1_Mucor_genevensis|F|ITS1:0.0883073045)100/100:0.3452281518)90.5/44:0.1016337617,(NR_164218.1_Hyphomucor_assamensis|F|ITS1:0.2571028758,(NR_103642.1_Mucor_laxorrhizus|F|ITS1:0.1282001799,NR_152956.1_Mucor_lanceolatus|F|ITS1:0.1170214873)84.6/97:0.0524711262)90.8/94:0.0689379932)70.6/36:0.0102652439,((((NR_103641.1_Mucor_zychae|F|ITS1:0.1899398253,NR_182577.1_Mucor_grylli|F|ITS1:0.4712808232)88.9/80:0.1726986419,(((((((NR_103647.1_Mucor_falcatus|F|ITS1:0.4818152161,UHM46|F|ITS1:0.0000026706)80.3/66:0.0277703540,NR_178162.1_Mucor_chiangraiensis|F|ITS1:0.1340454458)92.4/70:0.0569490078,NR_152951.1_Mucor_variisporus|F|ITS1:0.0400102497)46.5/48:0.0129707311,NR_103615.1_Mucor_amphibiorum|F|ITS1:0.0937343610)73.5/68:0.0312180237,(NR_152960.1_Mucor_ardhlaengiktus|F|ITS1:0.0000025739,NR_111683.1_Mucor_ellipsoideus|F|ITS1:0.0000010000)93.1/100:0.0578795293)0/63:0.0000025936,NR_077173.1_Mucor_indicus|F|ITS1:0.1522149799)96.5/88:0.1541968230,(NR_103639.1_Mucor_azygosporus|F|ITS1:0.2092545390,NR_182578.1_Mucor_hyangburmii|F|ITS1:0.5171579137)62.2/79:0.0300253055)91.5/66:0.1291543763)66.3/54:0.0393171792,NR_182579.1_Mucor_kunryangriensis|F|ITS1:0.1326530262)24.1/34:0.0744725604,NR_145287.1_Mucor_odoratus|F|ITS1:0.1512844466)96.5/82:0.1389187981)97.6/67:0.1112543660,NR_169896.1_Mucor_pseudocircinelloides|F|ITS1:0.0000026865)92/64:0.0164204171)0/41:0.0000021501,((NR_103628.1_Mucor_bainieri|F|ITS1:0.0065949941,(NR_168167.1_Mucor_pseudolusitanicus|F|ITS1:0.0000010000,UHM55|F|ITS1:0.0260585990)82.2/78:0.0144787080)58.8/73:0.0046810069,NR_169895.1_Mucor_atramentarius|F|ITS1:0.0000021116)89.9/73:0.0172403593)86.1/63:0.0182279835,(NR_168144.1_Mucor_ctenidius|F|ITS1:0.0161215486,NR_126116.1_Mucor_circinelloides|F|ITS1:0.0549344698)91.8/96:0.0273060018)76.2/62:0.0103465075,(((((UHM39|F|ITS1:0.0348383054,NR_178159.1_Mucor_phayaoensis|F|ITS1:0.0350130671)0/75:0.0000010000,UHM53|F|ITS1:0.0000010000)90.5/78:0.0172438745,NR_126127.1_Mucor_lusitanicus|F|ITS1:0.0000029932)85.8/81:0.0180375784,(NR_103627.1_Mucor_ramosissimus|F|ITS1:0.0336607865,(NR_111462.1_Rhizomucor_pusillus|F|ITS1:0.2594929196,NR_164370.1_Rhizomucor_miehei|F|ITS1:0.4420059820)100/99:2.7305627580)0/56:0.0000029362)87.9/63:0.0184556906,NR_169897.1_Mucor_amethystinus|F|ITS1:0.0577179219)72.7/59:0.0086941465)90.9/76:0.0270067326,NR_126136.1_Mucor_griseocyanus|F|ITS1:0.0438159047)82.7/99:0.0165675501,NR_111682.1_Mucor_velutinosus|F|ITS1:0.0132632098);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -14073.733178
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--NR_126123.1_Mucor_janssenii|F|ITS1
+|
+|                    +--UHM42|F|ITS1
+|                 +--| (95)
+|                 |  +--NR_175649.1_Mucor_harpali|F|ITS1
+|              +--| (72)
+|              |  |  +--NR_103629.1_Mucor_mousanensis|F|ITS1
+|              |  +--| (83)
+|              |     |  +--NR_126135.1_Mucor_racemosus|F|ITS1
+|              |     +--| (100)
+|              |        +--NR_145283.1_Mucor_brunneogriseus|F|ITS1
+|           +--| (41)
+|           |  |                                      +--UHM51|F|ITS1
+|           |  |                                   +--| (82)
+|           |  |                                   |  +--UHM47|F|ITS1
+|           |  |                                +--| (99)
+|           |  |                                |  |  +--UHM36|F|ITS1
+|           |  |                                |  +--| (98)
+|           |  |                                |     +--UHM49|F|ITS1
+|           |  |                             +--| (98)
+|           |  |                             |  +--NR_152948.1_Mucor_hiemalis|F|ITS1
+|           |  |                          +--| (65)
+|           |  |                          |  +--NR_111660.1_Mucor_fusiformis|F|ITS1
+|           |  |                       +--| (37)
+|           |  |                       |  |                                      +---------------NR_135337.1_Aspergillus_glaucus|F|ITS1
+|           |  |                       |  |                     +----------------| (97)
+|           |  |                       |  |                     |                +---------------NR_111663.1_Thermomucor_indicae-seudaticae|F|ITS1
+|           |  |                       |  |     +---------------| (93)
+|           |  |                       |  |     |               |               +--NR_111413.1_Lichtheimia_corymbifera|F|ITS1
+|           |  |                       |  |     |               +---------------| (98)
+|           |  |                       |  |     |                               +--------NR_111438.1_Lichtheimia_ramosa|F|ITS1
+|           |  |                       |  |  +--| (38)
+|           |  |                       |  |  |  |           +--UHM50|F|ITS1
+|           |  |                       |  |  |  |        +--| (100)
+|           |  |                       |  |  |  |        |  +--UHM38|F|ITS1
+|           |  |                       |  |  |  |     +--| (94)
+|           |  |                       |  |  |  |     |  +--NR_120224.1_Mucor_luteus|F|ITS1
+|           |  |                       |  |  |  |  +--| (86)
+|           |  |                       |  |  |  |  |  +------UHM48|F|ITS1
+|           |  |                       |  |  |  +--| (24)
+|           |  |                       |  |  |     |   +---------NR_145292.1_Backusella_oblongielliptica|F|ITS1
+|           |  |                       |  |  |     +---| (94)
+|           |  |                       |  |  |         |           +--------NR_145291.1_Backusella_lamprospora|F|ITS1
+|           |  |                       |  |  |         +-----------| (100)
+|           |  |                       |  |  |                     |      +--NR_145290.1_Backusella_indica|F|ITS1
+|           |  |                       |  |  |                     +------| (100)
+|           |  |                       |  |  |                            +--NR_103648.1_Backusella_grandis|F|ITS1
+|           |  |                       |  +--| (38)
+|           |  |                       |     +--NR_111661.1_Mucor_endophyticus|F|ITS1
+|           |  |                    +--| (46)
+|           |  |                    |  |           +--NR_178158.1_Mucor_takensis|F|ITS1
+|           |  |                    |  |        +--| (85)
+|           |  |                    |  |        |  +--NR_172288.1_Mucor_irregularis|F|ITS1
+|           |  |                    |  |     +--| (87)
+|           |  |                    |  |     |  +--NR_178161.1_Mucor_aseptatophorus|F|ITS1
+|           |  |                    |  |  +--| (87)
+|           |  |                    |  |  |  |  +--UHM45|F|ITS1
+|           |  |                    |  |  |  +--| (93)
+|           |  |                    |  |  |     +--UHM43|F|ITS1
+|           |  |                    |  +--| (73)
+|           |  |                    |     +--NR_165210.1_Mucor_souzae|F|ITS1
+|           |  |                 +--| (53)
+|           |  |                 |  |          +------------NR_187100.1_Mucor_ascheae|F|ITS1
+|           |  |                 |  |     +----| (99)
+|           |  |                 |  |     |    +--NR_164587.1_Mucor_orantomantidis|F|ITS1
+|           |  |                 |  |  +--| (79)
+|           |  |                 |  |  |  +--NR_111662.1_Mucor_multiplex|F|ITS1
+|           |  |                 |  +--| (78)
+|           |  |                 |     +--NR_145286.1_Mucor_megalocarpus|F|ITS1
+|           |  |              +--| (63)
+|           |  |              |  |     +--NR_103630.1_Mucor_piriformis|F|ITS1
+|           |  |              |  |  +--| (99)
+|           |  |              |  |  |  +--NR_103631.1_Mucor_strictus|F|ITS1
+|           |  |              |  +--| (92)
+|           |  |              |     +--NR_103688.1_Mucor_mucedo|F|ITS1
+|           |  |           +--| (62)
+|           |  |           |  |           +--NR_152958.1_Mucor_minutus|F|ITS1
+|           |  |           |  |        +--| (92)
+|           |  |           |  |        |  +--NR_103635.1_Mucor_saturninus|F|ITS1
+|           |  |           |  |     +--| (100)
+|           |  |           |  |     |  |  +--NR_103634.1_Mucor_aligarensis|F|ITS1
+|           |  |           |  |     |  +--| (87)
+|           |  |           |  |     |     +--NR_103633.1_Mucor_flavus|F|ITS1
+|           |  |           |  |  +--| (34)
+|           |  |           |  |  |  +--NR_145295.1_Mucor_durus|F|ITS1
+|           |  |           |  +--| (58)
+|           |  |           |     |           +---NR_103646.1_Mucor_gigasporus|F|ITS1
+|           |  |           |     |        +--| (69)
+|           |  |           |     |        |  +--NR_145285.1_Mucor_bacilliformis|F|ITS1
+|           |  |           |     |     +--| (62)
+|           |  |           |     |     |  |  +--NR_152977.1_Mucor_rudolphii|F|ITS1
+|           |  |           |     |     |  +--| (100)
+|           |  |           |     |     |     +--NR_152978.1_Mucor_lilianae|F|ITS1
+|           |  |           |     |  +--| (58)
+|           |  |           |     |  |  |  +--NR_103636.1_Mucor_guilliermondii|F|ITS1
+|           |  |           |     |  |  +--| (99)
+|           |  |           |     |  |     +--NR_185548.1_Mucor_chuxiongensis|F|ITS1
+|           |  |           |     +--| (36)
+|           |  |           |        |     +--NR_152959.1_Mucor_moelleri|F|ITS1
+|           |  |           |        |  +--| (100)
+|           |  |           |        |  |  +--NR_111659.1_Mucor_moelleri|F|ITS1
+|           |  |           |        +--| (98)
+|           |  |           |           +--NR_103638.1_Mucor_zonatus|F|ITS1
+|           |  |        +--| (44)
+|           |  |        |  |     +--UHM52|F|ITS1
+|           |  |        |  |  +--| (99)
+|           |  |        |  |  |  +--UHM44|F|ITS1
+|           |  |        |  +--| (100)
+|           |  |        |     +--NR_103632.1_Mucor_genevensis|F|ITS1
+|           |  |     +--| (36)
+|           |  |     |  |  +--NR_164218.1_Hyphomucor_assamensis|F|ITS1
+|           |  |     |  +--| (94)
+|           |  |     |     |  +--NR_103642.1_Mucor_laxorrhizus|F|ITS1
+|           |  |     |     +--| (97)
+|           |  |     |        +--NR_152956.1_Mucor_lanceolatus|F|ITS1
+|           |  |  +--| (67)
+|           |  |  |  |        +--NR_103641.1_Mucor_zychae|F|ITS1
+|           |  |  |  |     +--| (80)
+|           |  |  |  |     |  +---NR_182577.1_Mucor_grylli|F|ITS1
+|           |  |  |  |  +--| (54)
+|           |  |  |  |  |  |                    +---NR_103647.1_Mucor_falcatus|F|ITS1
+|           |  |  |  |  |  |                 +--| (66)
+|           |  |  |  |  |  |                 |  +--UHM46|F|ITS1
+|           |  |  |  |  |  |              +--| (70)
+|           |  |  |  |  |  |              |  +--NR_178162.1_Mucor_chiangraiensis|F|ITS1
+|           |  |  |  |  |  |           +--| (48)
+|           |  |  |  |  |  |           |  +--NR_152951.1_Mucor_variisporus|F|ITS1
+|           |  |  |  |  |  |        +--| (68)
+|           |  |  |  |  |  |        |  +--NR_103615.1_Mucor_amphibiorum|F|ITS1
+|           |  |  |  |  |  |     +--| (63)
+|           |  |  |  |  |  |     |  |  +--NR_152960.1_Mucor_ardhlaengiktus|F|ITS1
+|           |  |  |  |  |  |     |  +--| (100)
+|           |  |  |  |  |  |     |     +--NR_111683.1_Mucor_ellipsoideus|F|ITS1
+|           |  |  |  |  |  |  +--| (88)
+|           |  |  |  |  |  |  |  +--NR_077173.1_Mucor_indicus|F|ITS1
+|           |  |  |  |  |  +--| (66)
+|           |  |  |  |  |     |  +--NR_103639.1_Mucor_azygosporus|F|ITS1
+|           |  |  |  |  |     +--| (79)
+|           |  |  |  |  |        +---NR_182578.1_Mucor_hyangburmii|F|ITS1
+|           |  |  |  +--| (82)
+|           |  |  |     |  +--NR_182579.1_Mucor_kunryangriensis|F|ITS1
+|           |  |  |     +--| (62)
+|           |  |  |        +--NR_145287.1_Mucor_odoratus|F|ITS1
+|           |  +--| (64)
+|           |     +--NR_169896.1_Mucor_pseudocircinelloides|F|ITS1
+|        +--| (63)
+|        |  |     +--NR_103628.1_Mucor_bainieri|F|ITS1
+|        |  |  +--| (73)
+|        |  |  |  |  +--NR_168167.1_Mucor_pseudolusitanicus|F|ITS1
+|        |  |  |  +--| (78)
+|        |  |  |     +--UHM55|F|ITS1
+|        |  +--| (73)
+|        |     +--NR_169895.1_Mucor_atramentarius|F|ITS1
+|     +--| (62)
+|     |  |  +--NR_168144.1_Mucor_ctenidius|F|ITS1
+|     |  +--| (96)
+|     |     +--NR_126116.1_Mucor_circinelloides|F|ITS1
+|  +--| (76)
+|  |  |              +--UHM39|F|ITS1
+|  |  |           +--| (75)
+|  |  |           |  +--NR_178159.1_Mucor_phayaoensis|F|ITS1
+|  |  |        +--| (78)
+|  |  |        |  +--UHM53|F|ITS1
+|  |  |     +--| (81)
+|  |  |     |  +--NR_126127.1_Mucor_lusitanicus|F|ITS1
+|  |  |  +--| (63)
+|  |  |  |  |  +--NR_103627.1_Mucor_ramosissimus|F|ITS1
+|  |  |  |  +--| (56)
+|  |  |  |     |                      +--NR_111462.1_Rhizomucor_pusillus|F|ITS1
+|  |  |  |     +----------------------| (99)
+|  |  |  |                            +--NR_164370.1_Rhizomucor_miehei|F|ITS1
+|  |  +--| (59)
+|  |     +--NR_169897.1_Mucor_amethystinus|F|ITS1
++--| (99)
+|  +--NR_126136.1_Mucor_griseocyanus|F|ITS1
+|
++--NR_111682.1_Mucor_velutinosus|F|ITS1
+
+
+Consensus tree in newick format: 
+
+(NR_126123.1_Mucor_janssenii|F|ITS1:0.0053485967,(((((((UHM42|F|ITS1:0.0611405837,NR_175649.1_Mucor_harpali|F|ITS1:0.0408054149)95:0.1189907897,(NR_103629.1_Mucor_mousanensis|F|ITS1:0.1533422875,(NR_126135.1_Mucor_racemosus|F|ITS1:0.0000023076,NR_145283.1_Mucor_brunneogriseus|F|ITS1:0.0172090547)100:0.0625624593)83:0.0086383836)72:0.0260712788,(((((((((((((UHM51|F|ITS1:0.0000023076,UHM47|F|ITS1:0.0000021189)82:0.0313933920,(UHM36|F|ITS1:0.2038499573,UHM49|F|ITS1:0.3307212255)98:0.0759402406)99:0.0917661312,NR_152948.1_Mucor_hiemalis|F|ITS1:0.1357889750)98:0.1728552224,NR_111660.1_Mucor_fusiformis|F|ITS1:0.1943784481)65:0.0280147987,((((NR_135337.1_Aspergillus_glaucus|F|ITS1:1.8912751933,NR_111663.1_Thermomucor_indicae-seudaticae|F|ITS1:1.9365544325)97:1.9890297172,(NR_111413.1_Lichtheimia_corymbifera|F|ITS1:0.0000024045,NR_111438.1_Lichtheimia_ramosa|F|ITS1:1.1395370129)98:1.8513446169)93:1.8918960340,((((UHM50|F|ITS1:0.0000028858,UHM38|F|ITS1:0.0000023076)100:0.0170516927,NR_120224.1_Mucor_luteus|F|ITS1:0.0000023076)94:0.0392379955,UHM48|F|ITS1:0.8770357651)86:0.0488877424,(NR_145292.1_Backusella_oblongielliptica|F|ITS1:1.1599551045,(NR_145291.1_Backusella_lamprospora|F|ITS1:1.1122423034,(NR_145290.1_Backusella_indica|F|ITS1:0.1000873719,NR_103648.1_Backusella_grandis|F|ITS1:0.0721888912)100:0.8765732856)100:1.4199045837)94:0.5257204467)24:0.0000022798)38:0.0600470872,NR_111661.1_Mucor_endophyticus|F|ITS1:0.1566418711)38:0.1755055504)37:0.0890414367,((((NR_178158.1_Mucor_takensis|F|ITS1:0.1041233446,NR_172288.1_Mucor_irregularis|F|ITS1:0.0846169252)85:0.0496915741,NR_178161.1_Mucor_aseptatophorus|F|ITS1:0.0290594549)87:0.0961023747,(UHM45|F|ITS1:0.0000023076,UHM43|F|ITS1:0.0000023076)93:0.0095383509)87:0.0582390333,NR_165210.1_Mucor_souzae|F|ITS1:0.1061707572)73:0.1343586038)46:0.2076975947,(((NR_187100.1_Mucor_ascheae|F|ITS1:1.5169504676,NR_164587.1_Mucor_orantomantidis|F|ITS1:0.3592740742)99:0.5982381654,NR_111662.1_Mucor_multiplex|F|ITS1:0.0608835886)79:0.1073230076,NR_145286.1_Mucor_megalocarpus|F|ITS1:0.3012382255)78:0.0698241503)53:0.1248548125,((NR_103630.1_Mucor_piriformis|F|ITS1:0.0556153970,NR_103631.1_Mucor_strictus|F|ITS1:0.2754861135)99:0.1388699357,NR_103688.1_Mucor_mucedo|F|ITS1:0.1397004078)92:0.2158816310)63:0.0722019519,((((NR_152958.1_Mucor_minutus|F|ITS1:0.1145833191,NR_103635.1_Mucor_saturninus|F|ITS1:0.1492163851)92:0.0490639245,(NR_103634.1_Mucor_aligarensis|F|ITS1:0.0825763904,NR_103633.1_Mucor_flavus|F|ITS1:0.0713456472)87:0.0146307187)100:0.1663782411,NR_145295.1_Mucor_durus|F|ITS1:0.2978668501)34:0.0582869619,((((NR_103646.1_Mucor_gigasporus|F|ITS1:0.5198150003,NR_145285.1_Mucor_bacilliformis|F|ITS1:0.1368840666)69:0.1911138031,(NR_152977.1_Mucor_rudolphii|F|ITS1:0.0000023076,NR_152978.1_Mucor_lilianae|F|ITS1:0.0000023076)100:0.1146457643)62:0.0468374522,(NR_103636.1_Mucor_guilliermondii|F|ITS1:0.1275319619,NR_185548.1_Mucor_chuxiongensis|F|ITS1:0.1690367165)99:0.1961682027)58:0.0695094688,((NR_152959.1_Mucor_moelleri|F|ITS1:0.0000023076,NR_111659.1_Mucor_moelleri|F|ITS1:0.0000023076)100:0.1648333954,NR_103638.1_Mucor_zonatus|F|ITS1:0.0069169929)98:0.1347093038)36:0.0370768560)58:0.1020825125)62:0.0660478239,((UHM52|F|ITS1:0.0185679192,UHM44|F|ITS1:0.2466715423)99:0.1298652313,NR_103632.1_Mucor_genevensis|F|ITS1:0.0895433436)100:0.3534835601)44:0.0852147049,(NR_164218.1_Hyphomucor_assamensis|F|ITS1:0.2558825472,(NR_103642.1_Mucor_laxorrhizus|F|ITS1:0.1294331825,NR_152956.1_Mucor_lanceolatus|F|ITS1:0.1144423474)97:0.0525370202)94:0.0689545477)36:0.0102907724,(((NR_103641.1_Mucor_zychae|F|ITS1:0.1867946879,NR_182577.1_Mucor_grylli|F|ITS1:0.4702448801)80:0.1819892222,(((((((NR_103647.1_Mucor_falcatus|F|ITS1:0.4795689523,UHM46|F|ITS1:0.0000023124)66:0.0276029287,NR_178162.1_Mucor_chiangraiensis|F|ITS1:0.1334524914)70:0.0600747278,NR_152951.1_Mucor_variisporus|F|ITS1:0.0367944405)48:0.0131784893,NR_103615.1_Mucor_amphibiorum|F|ITS1:0.0954181228)68:0.0308660029,(NR_152960.1_Mucor_ardhlaengiktus|F|ITS1:0.0000023076,NR_111683.1_Mucor_ellipsoideus|F|ITS1:0.0000023076)100:0.0564015108)63:0.0000021224,NR_077173.1_Mucor_indicus|F|ITS1:0.1540594728)88:0.1423520645,(NR_103639.1_Mucor_azygosporus|F|ITS1:0.2018011601,NR_182578.1_Mucor_hyangburmii|F|ITS1:0.5108456744)79:0.0442438116)66:0.1404977558)54:0.0358722735,(NR_182579.1_Mucor_kunryangriensis|F|ITS1:0.1484360793,NR_145287.1_Mucor_odoratus|F|ITS1:0.1591100434)62:0.0390725059)82:0.1508083031)67:0.1111517765,NR_169896.1_Mucor_pseudocircinelloides|F|ITS1:0.0000029672)64:0.0163779538)41:0.0000020717,((NR_103628.1_Mucor_bainieri|F|ITS1:0.0065673824,(NR_168167.1_Mucor_pseudolusitanicus|F|ITS1:0.0000023076,UHM55|F|ITS1:0.0259491622)78:0.0144176063)73:0.0046627048,NR_169895.1_Mucor_atramentarius|F|ITS1:0.0000023076)73:0.0171702042)63:0.0181723531,(NR_168144.1_Mucor_ctenidius|F|ITS1:0.0160811281,NR_126116.1_Mucor_circinelloides|F|ITS1:0.0547060443)96:0.0271742419)62:0.0103138449,(((((UHM39|F|ITS1:0.0346907807,NR_178159.1_Mucor_phayaoensis|F|ITS1:0.0348654177)75:0.0000023076,UHM53|F|ITS1:0.0000023076)78:0.0171728031,NR_126127.1_Mucor_lusitanicus|F|ITS1:0.0000023102)81:0.0179761730,(NR_103627.1_Mucor_ramosissimus|F|ITS1:0.0335114017,(NR_111462.1_Rhizomucor_pusillus|F|ITS1:0.2586271608,NR_164370.1_Rhizomucor_miehei|F|ITS1:0.4395998177)99:2.7046162208)56:0.0000027552)63:0.0183770258,NR_169897.1_Mucor_amethystinus|F|ITS1:0.0574785173)59:0.0086721242)76:0.0268873774,NR_126136.1_Mucor_griseocyanus|F|ITS1:0.0436303467)99:0.0164983129,NR_111682.1_Mucor_velutinosus|F|ITS1:0.0132096375);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t UHM_mucor.ITS1.fasaln.treefile -m "TVM{1.02946,2.94038,2.1441,1.22255}+F{0.28441,0.20187,0.210196,0.303524}+G4{0.838702}" --length 2980
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s UHM_mucor.ITS1.fasaln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s UHM_mucor.ITS1.fasaln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct 15 20:44:27 2023
+Total CPU time used: 147.801017 seconds (0h:2m:27s)
+Total wall-clock time used: 87.56457615 seconds (0h:1m:27s)
+
