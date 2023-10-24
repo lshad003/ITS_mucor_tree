@@ -1,0 +1,77 @@
+UHM36	End of SSU sequence not found; Start of LSU sequence not found
+UHM38	Start of LSU sequence not found
+UHM39	Start of LSU sequence not found
+UHM42	Start of LSU sequence not found
+UHM43	Start of LSU sequence not found
+UHM44	End of SSU sequence not found; Start of LSU sequence not found
+UHM45	Start of LSU sequence not found
+UHM46	Start of LSU sequence not found
+UHM47	End of SSU sequence not found; Start of LSU sequence not found
+UHM48	End of SSU sequence not found; Start of LSU sequence not found
+UHM49	End of SSU sequence not found; Start of LSU sequence not found
+UHM50	End of SSU sequence not found; Start of LSU sequence not found
+UHM51	Start of LSU sequence not found
+UHM52	Start of LSU sequence not found
+UHM53	Start of LSU sequence not found
+UHM55	Start of LSU sequence not found
+NR_126127.1_Mucor_lusitanicus	End of SSU sequence not found
+NR_126136.1_Mucor_griseocyanus	End of SSU sequence not found
+NR_126123.1_Mucor_janssenii	End of SSU sequence not found
+NR_103636.1_Mucor_guilliermondii	End of SSU sequence not found
+NR_168167.1_Mucor_pseudolusitanicus	End of SSU sequence not found
+NR_152956.1_Mucor_lanceolatus	End of SSU sequence not found; Start of LSU sequence not found
+NR_145283.1_Mucor_brunneogriseus	End of SSU sequence not found; Start of LSU sequence not found
+NR_120224.1_Mucor_luteus	End of SSU sequence not found
+NR_152960.1_Mucor_ardhlaengiktus	End of SSU sequence not found
+NR_152959.1_Mucor_moelleri	End of SSU sequence not found
+NR_152958.1_Mucor_minutus	End of SSU sequence not found
+NR_152951.1_Mucor_variisporus	Start of LSU sequence not found
+NR_152948.1_Mucor_hiemalis	End of SSU sequence not found
+NR_145287.1_Mucor_odoratus	End of SSU sequence not found
+NR_145285.1_Mucor_bacilliformis	End of SSU sequence not found
+NR_126135.1_Mucor_racemosus	End of SSU sequence not found
+NR_111682.1_Mucor_velutinosus	End of SSU sequence not found; Start of LSU sequence not found
+NR_103688.1_Mucor_mucedo	End of SSU sequence not found
+NR_103647.1_Mucor_falcatus	End of SSU sequence not found
+NR_103646.1_Mucor_gigasporus	End of SSU sequence not found
+NR_103642.1_Mucor_laxorrhizus	End of SSU sequence not found
+NR_103641.1_Mucor_zychae	End of SSU sequence not found
+NR_103639.1_Mucor_azygosporus	End of SSU sequence not found
+NR_103638.1_Mucor_zonatus	End of SSU sequence not found
+NR_103635.1_Mucor_saturninus	End of SSU sequence not found
+NR_103634.1_Mucor_aligarensis	End of SSU sequence not found
+NR_103633.1_Mucor_flavus	End of SSU sequence not found
+NR_103632.1_Mucor_genevensis	End of SSU sequence not found
+NR_103631.1_Mucor_strictus	End of SSU sequence not found
+NR_103630.1_Mucor_piriformis	End of SSU sequence not found
+NR_103629.1_Mucor_mousanensis	End of SSU sequence not found
+NR_103628.1_Mucor_bainieri	End of SSU sequence not found
+NR_103627.1_Mucor_ramosissimus	End of SSU sequence not found
+NR_103615.1_Mucor_amphibiorum	End of SSU sequence not found
+NR_182579.1_Mucor_kunryangriensis	End of SSU sequence not found
+NR_182578.1_Mucor_hyangburmii	End of SSU sequence not found
+NR_182577.1_Mucor_grylli	End of SSU sequence not found
+NR_185548.1_Mucor_chuxiongensis	End of SSU sequence not found
+NR_178159.1_Mucor_phayaoensis	Start of LSU sequence not found
+NR_175649.1_Mucor_harpali	End of SSU sequence not found
+NR_169897.1_Mucor_amethystinus	End of SSU sequence not found
+NR_169896.1_Mucor_pseudocircinelloides	End of SSU sequence not found
+NR_169895.1_Mucor_atramentarius	End of SSU sequence not found
+NR_165210.1_Mucor_souzae	End of SSU sequence not found
+NR_164587.1_Mucor_orantomantidis	End of SSU sequence not found
+NR_145295.1_Mucor_durus	End of SSU sequence not found; Start of LSU sequence not found
+NR_145286.1_Mucor_megalocarpus	End of SSU sequence not found
+NR_111662.1_Mucor_multiplex	End of SSU sequence not found
+NR_111661.1_Mucor_endophyticus	End of SSU sequence not found
+NR_111660.1_Mucor_fusiformis	End of SSU sequence not found
+NR_168144.1_Mucor_ctenidius	End of SSU sequence not found
+NR_111659.1_Mucor_moelleri	End of SSU sequence not found
+NR_103648.1_Backusella_grandis	End of SSU sequence not found
+NR_164218.1_Hyphomucor_assamensis	End of SSU sequence not found
+NR_145292.1_Backusella_oblongielliptica	End of SSU sequence not found
+NR_145291.1_Backusella_lamprospora	End of SSU sequence not found
+NR_145290.1_Backusella_indica	End of SSU sequence not found
+NR_111663.1_Thermomucor_indicae-seudaticae	End of SSU sequence not found; End of 5.8S sequence not found
+NR_111462.1_Rhizomucor_pusillus	End of SSU sequence not found
+NR_111438.1_Lichtheimia_ramosa	End of SSU sequence not found; Start of LSU sequence not found
+NR_135337.1_Aspergillus_glaucus	End of SSU sequence not found
